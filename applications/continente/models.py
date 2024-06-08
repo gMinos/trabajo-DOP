@@ -9,5 +9,5 @@ class Continente(models.Model):
         'Descripcion continente', max_length=50, unique=True, default='')
     # relacion_pais = models.ManyToManyField(Pais)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.id} - {self.nombre_continente} - {self.descripcion_continente}'

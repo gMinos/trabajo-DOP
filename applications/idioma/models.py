@@ -9,4 +9,4 @@ class Idioma(models.Model):
     idioma_pais = models.ForeignKey(Pais, on_delete=models.CASCADE)
 
     def __str__(self) -> str:
-        return self.codigoIdioma + ' - ' + self.idioma
+        return f'{self.codigoIdioma} - {self.idioma}'

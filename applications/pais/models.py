@@ -8,4 +8,4 @@ class Pais(models.Model):
         'Descripcion del Pais', max_length=30, unique=True)
 
     def __str__(self) -> str:
-        return self.codigoPais + '-' + self.nombrePais + '-' + self.descripcionPais
+        return f'{self.codigoPais} - {self.nombrePais} - {self.descripcionPais}'
