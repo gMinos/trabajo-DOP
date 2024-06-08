@@ -20,10 +20,10 @@ Desde tu terminal, sigue estos pasos:
     ```bash
     cd tu-repositorio
     ```
-3. (Opcional) Crea y activa un entorno virtual:
+3. (Opcional) Crea y activa un entorno virtual (el entorno virtual debe llamarse **.venv** para no generar conflictos):
     ```bash
-    python -m venv env
-    source env/bin/activate  # En Windows usa `env\Scripts\activate`
+    python -m venv .venv
+    source .venv/bin/activate  # En Windows usa `.venv\Scripts\activate`
     ```
 4. Instala las dependencias necesarias:
     ```bash
