@@ -1,6 +1,6 @@
 # Nombre del Proyecto
 
-Descripción corta de lo que hace tu proyecto.
+Muestra todos los continentes y cada unos de sus paises e idiomas hablando en dichos paises.
 
 ## Tabla de Contenidos
 
